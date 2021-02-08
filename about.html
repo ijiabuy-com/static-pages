@@ -20,11 +20,17 @@
     </a>
     <a href="#home" class="w3-bar-item w3-button">HOME</a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="./seller.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-globe"></i> SELL</a>
+    <a href="https://mall.ijiabuy.com" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-shopping-cart"></i> SHOP</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
     </a>
+      <div align="right" class="w3-large" style="padding-top: 5px" >
+    <i class="fa fa-wechat w3-hover-opacity" style="padding-right: 5px"></i>
+    <i class="fa fa-instagram w3-hover-opacity" style="padding-right: 5px"></i>
+    <i class="fa fa-facebook-official w3-hover-opacity" style="padding-right: 5px"></i>
+    <i class="fa fa-envelope w3-hover-opacity" style="padding-right: 5px"></i>
+  </div>
   </div>
 
   <!-- Navbar on small screens -->
@@ -40,26 +46,53 @@
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
     <div class="w3-display-middle" style="white-space:nowrap;">
           <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity" width="100%">
-            <span class="w3-hide-small" align="center">iJiaBuy</span>
+            <span align="center"><a href="#about" style="text-decoration: none;">iJiaBuy</a></span>
           </span>
   </div>
 </div>
 
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center"><img src="images/brand/ijb-logo-color.png" width="200px" height="auto"/></h3>
+  <h3 class="w3-center"><img src="images/brand/ijb-icon-color.png" width="200px" height="auto"/></h3>
   <h3 class="w3-center">WHAT IS IJIABUY?</h3>
-  <p class="w3-center"><em>intro to iJiaBuy</em></p>
-  <p>WE HAVE ALOTTA COOL STUFF BRO, YOU SHOULD TOTALLY TRY US OUT WHEN WE LAUNCH</p>
-
-
-    <!-- Hide this text on small devices -->
-    <div class="w3-col m6 w3-hide-small w3-padding-large"> <!-- USE THIS LATER TO MAKE CARDS -->
-      <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
+  <div class="container">
+    <ul>
+      <li>iJiaBuy is a growing e-commerce platform aiming to connect users to a variety of items and a variety of ways to get deals.</li>
+      <li>We focus on small household items, personal accessories, and luxury teas, but overall offer a unique shopping experience for products that uplift your life and make you feel more at home.</li>
+      <li>We also provide a great platform for sellers to reach the best community of customers</li>
+    </ul>
   </div>
+
+  <h3 class="w3-center">WHAT SETS US APART?</h3>
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m4"><div class="card text-left setsusapart">
+      <h4 align="center">Unique Shopping Experience</h4>
+      <ul>
+        <li>Convenient, easy to use app</li>
+        <li>Social dynamic that brings new joy to shopping online</li>
+        <li>Pay using cryptocurrency (in progress)</li>
+
+      </ul>
+    </div></div>
+    <div class="w3-col m4"><div class="card text-left setsusapart">
+      <h4 align="center">Special Rewards and Events</h4>
+      <ul>
+        <li>Get rewards for using the app and especially for sharing on social media</li>
+        <li>Get news on deals and special promotion events </li>
+        <li>Exchange reward points for cryptocurrency during events (in progress)</li>
+
+      </ul>
+    </div></div>
+    <div class="w3-col m4"><div class="card text-left setsusapart">
+      <h4 align="center">Great Product Selection</h4>
+      <ul>
+        <li>We actively seek iJiaBuy suppliers to strengthen our selection in the household, personal accessory, and family categories</li>
+        <li>We provide a platform for sellers to share their products with our community of users</li>
+      </ul>
+    </div></div>
+  </div>
+     
+
 </div>
 
 <div class="w3-row w3-center w3-dark-grey w3-padding-16">
@@ -95,20 +128,24 @@
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
   <div class="w3-row-padding w3-center">
-    <div class="w3-col m3">
-      <img src="images/beauty1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Personal Care"/>
+    <div class="w3-col m3 image w3-hover-opacity">
+      <img src="images/beauty1.jpg" style="width:100%" onmouseover="onHover(this)" alt="Personal Care"/>
+      <h2 class="overlay">Personal Care</h2>
     </div>
 
-    <div class="w3-col m3">
-      <img src="images/baby1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Baby & Family"/>
+    <div class="w3-col m3 image w3-hover-opacity">
+      <img src="images/baby1.png" style="width:100%" onmouseover="onHover(this)" alt="Family"/>
+      <h2 class="overlay">Family</h2>
     </div>
 
-    <div class="w3-col m3">
-      <img src="images/household1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Household Items"/>
+    <div class="w3-col m3 image w3-hover-opacity">
+      <img src="images/household1.jpg" style="width:100%" onmouseover="onHover(this)" alt="Household Items"/>
+      <h2 class="overlay">Household Items</h2>
     </div>
 
-    <div class="w3-col m3">
-      <img src="images/phoneCase1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Personal Accessories"/>
+    <div class="w3-col m3 image w3-hover-opacity">
+      <img src="images/phoneCase1.jpg" style="width:100%" onmouseover="onHover(this)"alt="Accessories"/>
+      <h2 class="overlay">Accessories</h2>
     </div>
   </div>
 
@@ -127,12 +164,26 @@
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+     <span class="w3-xxlarge w3-text-white w3-wide">ABOUT OUR TEAM</span>
   </div>
 </div>
+<div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <img src="/w3images/avatar_hat.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Our Office" width="500" height="333">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Contact Us</b></p><br>
+    </div>
 
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <ul>
+        <li>iJiaBuy, Inc. is located in Flushing, NY, and is affiliated with Lucky Sky USA Commerce and Trading LLC. Our Chairman has been a part of many large-scale businesses in China including the JiaYouBei (加油呗) e-commerce app.</li>
+        <li>Now he has his sights set on growing markets in the US, and iJiaBuy is his e-commerce passion project. </li>
+        <li>This project’s mission is to deliver the reliable online shopping experience user’s have come to expect, together with products, promotions, and features unlike any other</li>
+      </ul>
+    </div>
+  </div>
 <!-- Container (Contact Section) -->
-<div class="w3-content w3-container w3-padding-64" id="contact">
+<!-- <div class="w3-content w3-container w3-padding-64" id="contact">
   <h3 class="w3-center">FOR INFO OR OPPORTUNITY</h3>
   <p class="w3-center"><em>Please contact us!</em></p>
 
@@ -163,18 +214,16 @@
       </form>
     </div>
   </div>
-</div>
+</div> -->
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-wechat w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-envelope w3-hover-opacity"></i>
   </div>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
@@ -184,6 +233,12 @@
 function onClick(element) {
   document.getElementById("img01").src = element.src;
   document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+function onHover(element) {
+  document.getElementById("img01").src = element.src;
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
 }
@@ -219,9 +274,21 @@ body, html {
   line-height: 1.8;
 }
 
+
 .fit {
   max-width: 50%;
   max-height: 50%;
+}
+
+.c2 {
+  max-width: 50%;
+ 
+}
+
+.c3 {
+  width: 30%;
+  
+  
 
 }
 /* Create a Parallax Effect */
@@ -255,47 +322,69 @@ body, html {
 .w3-hover-opacity {cursor: pointer;}
 
 /* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1600px) {
+/*@media only screen and (max-device-width: 1600px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
     min-height: 400px;
   }
-}
-/* ==========================   FOR IMAGE GRID   ============================ */
-/*.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-*/
-/* Create four equal columns that sits next to each other *//*
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-
- Responsive layout - makes a two column-layout instead of four columns 
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
 }*/
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-/*@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}*/
+/* cards */
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  padding: 2px 16px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+.setsusapart {
+  min-height: 300px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+/* ===================  attempts at overlay text  ================== */
+
+.image {
+   position:relative;
+   display:inline-block;
+}
+.overlay {
+   display:none;
+   vertical-align: middle;
+   padding-top: 50px;
+   color: #000000;
+}
+.image:hover .overlay {
+   width:100%;
+   height:100%;
+   position:absolute;
+   top:0;
+   left:0;
+   display:inline-block;
+   -webkit-box-sizing:border-box;
+   -moz-box-sizing:border-box;
+   box-sizing:border-box;
+}
+   /* All other styling - see example */
+img {
+      vertical-align:top;
+}
+
+
 </style>
 
 </body>
