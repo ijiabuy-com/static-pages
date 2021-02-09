@@ -13,6 +13,7 @@ TO DO:
   - _X_  add styling
   - __   add 'contact us' button that goes to bottom 
   - __   improve SEO
+  - __   make download buttons for apple, android, and desktop (link to mall website)
   - __   connect external links (fb, ig, wx, email)
   - __   add EN/CH language toggle
   - __   optimize for mobile
