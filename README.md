@@ -19,7 +19,7 @@ TO DO:
   - __   improve the categories page
 
 > Seller Page:
- -  _X_   make html content
-  - _X_   add styling
+ -  __   make html content
+  - __   add styling
   - __    improve SEO
   - __    optimize for mobile
