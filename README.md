@@ -9,17 +9,17 @@ TO RUN:
 
 TO DO:
 > About Page:
-  _X_ make html content
-  _X_ add styling
-  __ add 'contact us' button that goes to bottom 
-  __ improve SEO
-  __ connect external links (fb, ig, wx, email)
-  __ optimize for mobile
-  __ add blog
-  __ improve the categories page
+  - _X_ make html content
+  - _X_ add styling
+  - __ add 'contact us' button that goes to bottom 
+  - __ improve SEO
+  - __ connect external links (fb, ig, wx, email)
+  - __ optimize for mobile
+  - __ add blog
+  - __ improve the categories page
 
 > Seller Page:
-  _X_ make html content
-  _X_ add styling
-  __ improve SEO
-  __ optimize for mobile
+ -  _X_ make html content
+  - _X_ add styling
+  - __ improve SEO
+  - __ optimize for mobile
