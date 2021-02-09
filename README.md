@@ -4,7 +4,7 @@
 TO RUN: 
 - Locally: just run the About.html or Seller.html 
 - Production: About and Seller page will be hosted on the ijiabuy.com bucket.
-  + will use /about and /sell
+  + will use "/about" and "/sell"
 
 
 TO DO:
@@ -14,6 +14,7 @@ TO DO:
   - __   add 'contact us' button that goes to bottom 
   - __   improve SEO
   - __   connect external links (fb, ig, wx, email)
+  - __   add EN/CH language toggle
   - __   optimize for mobile
   - __   add blog
   - __   improve the categories page
